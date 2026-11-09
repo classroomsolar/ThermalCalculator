@@ -1,0 +1,408 @@
+{
+  "run_date": "2026-10-25",
+  "original_zip": "/mnt/data/files/Cable_Thermal_Studio_Complete_2026-10-24.zip",
+  "public_zip": "/mnt/data/Cable_Thermal_Studio_FINAL_PUBLIC_STABILIZATION_2026-10-25.zip",
+  "master_file": "/mnt/data/05_Current_Master_Workbook/Engineering_Master_Database_Audited.xlsx",
+  "sha256_master": "d38a19c7e28a4fe79d399d2ff498653b5febc5878d8ddafc155f888cc9855ba5",
+  "three_passes": {
+    "1_original_archive_manifest_files_media": true,
+    "2_workbook_public_data": true,
+    "3_written_audit_media_crossref": true
+  },
+  "checks": [
+    {
+      "item": "Original ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Archived source ZIP exact file inventory: 981 plus manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "ZIP manifest has exactly all original content paths",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Original 981 payload SHA-256 and size checks",
+      "pass": true,
+      "detail": {
+        "checked": 981,
+        "bad": []
+      }
+    },
+    {
+      "item": "PDF inventory four source PDFs",
+      "pass": true,
+      "detail": {
+        "count": 4
+      }
+    },
+    {
+      "item": "Raster image inventory nine source images",
+      "pass": true,
+      "detail": {
+        "count": 9
+      }
+    },
+    {
+      "item": "Vector image inventory five source SVGs",
+      "pass": true,
+      "detail": {
+        "count": 5
+      }
+    },
+    {
+      "item": "Original workbook sha256 matches public manifest",
+      "pass": true,
+      "detail": {
+        "sha": "d38a19c7e28a4fe79d399d2ff498653b5febc5878d8ddafc155f888cc9855ba5"
+      }
+    },
+    {
+      "item": "93 master worksheets exactly match public manifest order",
+      "pass": true,
+      "detail": {
+        "names": 93
+      }
+    },
+    {
+      "item": "93 sheet JSON assets all included",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Public ZIP checksum and 151 assets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Audited workbook inside original archive identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Six distinct original companion workbooks with 125 sheets",
+      "pass": true,
+      "detail": {
+        "count": 6,
+        "sheets": 125,
+        "names": {
+          "Underground_Cable_Thermal_Calculator_FIELD2D_FINAL.xlsx": 11,
+          "Underground_Cable_Thermal_Calculator_HARDENING_VALIDATION_FINAL.xlsx": 31,
+          "Underground_Cable_Thermal_Calculator_MAIN_FINAL.xlsx": 36,
+          "Underground_Cable_Thermal_Calculator_RELEASE_CONTROL_FINAL.xlsx": 5,
+          "Underground_Cable_Thermal_Calculator_ROUTE_OPTIMIZATION_FINAL.xlsx": 20,
+          "Underground_Cable_Thermal_Calculator_TRANSIENT_FINAL.xlsx": 22
+        }
+      }
+    },
+    {
+      "item": "256429 source records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "53117 workbook formula texts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Every archived PDF exact name in audit register",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Every archived raster image exact name in audit register",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Every archived SVG exact name in audit register",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "All 93 master sheet names in source register",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "All six original workbooks named in source register",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Public calculator baseline referenced in source register",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "item": "Unverified source/demo boundary explicitly documented",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "pass_count": 22,
+  "total": 22,
+  "pdfs": [
+    "01_Private_Site_v3.6.2_Source/docs/design/thermal-review-layout.pdf",
+    "04_QA_Evidence/Browser_Archive_QA/desktop_report_archived.pdf",
+    "04_QA_Evidence/Browser_Archive_QA/generated_engineering_report_archived.pdf",
+    "04_QA_Evidence/Browser_Archive_QA/mobile_report_archived.pdf"
+  ],
+  "raster_images": [
+    "01_Private_Site_v3.6.2_Source/docs/design/master-database-explorer.png",
+    "01_Private_Site_v3.6.2_Source/docs/design/thermal-review-layout.png",
+    "04_QA_Evidence/Browser_Archive_QA/desktop_report_archived.png",
+    "04_QA_Evidence/Browser_Archive_QA/desktop_steady_archived.png",
+    "04_QA_Evidence/Browser_Archive_QA/desktop_transient_archived.png",
+    "04_QA_Evidence/Browser_Archive_QA/generated_engineering_report_archived.png",
+    "04_QA_Evidence/Browser_Archive_QA/mobile_report_archived.png",
+    "04_QA_Evidence/Browser_Archive_QA/mobile_steady_archived.png",
+    "04_QA_Evidence/Browser_Archive_QA/mobile_transient_archived.png"
+  ],
+  "svgs": [
+    "01_Private_Site_v3.6.2_Source/docs/design/master-database-explorer.svg",
+    "01_Private_Site_v3.6.2_Source/public/favicon.svg",
+    "01_Private_Site_v3.6.2_Source/public/file.svg",
+    "01_Private_Site_v3.6.2_Source/public/globe.svg",
+    "01_Private_Site_v3.6.2_Source/public/window.svg"
+  ],
+  "sheets": [
+    "CABLES",
+    "CABLE_TYPES",
+    "TRANSMISSION_CONDUCTORS",
+    "PV_MODULES",
+    "BATTERIES",
+    "BATTERY_PERFORMANCE",
+    "TRANSFORMERS",
+    "MOTORS_NAMEPLATE",
+    "MOTOR_CHARACTERISTICS",
+    "MOTOR_MODELS",
+    "HV_BREAKERS",
+    "HV_BREAKERS_EXTENDED",
+    "LV_BREAKERS",
+    "FUSES",
+    "RELAYS",
+    "RECLOSERS",
+    "TRIP_DEVICES",
+    "OVERLOAD_HEATERS",
+    "ELECTRONIC_CONTROLLERS",
+    "CSD_DEVICES",
+    "RELIABILITY",
+    "RELIABILITY_EXTENDED",
+    "FIRE_PROTECTION",
+    "CONDUIT_FIRE_PROTECTION",
+    "HARMONICS",
+    "RECTIFIERS",
+    "INTERRUPTION_COST",
+    "RAILWAY_LOADS",
+    "IBR",
+    "SWITCHGEAR",
+    "INSTRUMENT_TRANSFORMERS",
+    "DISCONNECTS",
+    "CONDUCTOR_MATERIALS",
+    "CONDUCTOR_SIZES",
+    "CABLE_SC_K_FACTORS",
+    "INSULATION_CLASSES",
+    "GROUND_ELECTRODES",
+    "NEUTRAL_GROUNDING_RESISTORS",
+    "SURGE_ARRESTERS",
+    "CABLE_TRAYS",
+    "CABLE_CLEATS",
+    "BOX_FILL",
+    "CONDUITS",
+    "ENCLOSURES",
+    "PROTECTION_CURVES",
+    "SOURCE_REGISTER",
+    "TERMINATIONS",
+    "AMPACITY_ROUTES",
+    "AMPACITY_AMBIENT_FACTORS",
+    "AMPACITY_CCC_FACTORS",
+    "AMPACITY_PARAMETERS",
+    "NEC_AMPACITY_2020",
+    "NEC_AMPACITY_2023",
+    "GENERATORS",
+    "MOTOR_LOCKED_ROTOR_CODES",
+    "CABLE_FAULT_CURRENT_REFERENCE",
+    "CABLE_TRAY_EQUIPMENT",
+    "TRAY_EXPANSION_RULES",
+    "CABLE_CLEAT_SIZES",
+    "CABLE_CLEAT_SIZE_MAP",
+    "TRAY_ACCESSORY_RULES",
+    "CABLE_PLANNING_DEFAULTS",
+    "NEC_TRAY_FILL",
+    "NEC_CHANNEL_TRAY_FILL",
+    "TRAY_ENGINEERING_DEFAULTS",
+    "CABLE_IMPEDANCE_DEFAULTS",
+    "TRAY_EGC_METAL_AREA",
+    "EGC_SIZE_BY_OCPD",
+    "EGC_SIZE_THRESHOLDS",
+    "TRAY_EGC_AREA_THRESHOLDS",
+    "TRAY_WIDTH_CODES",
+    "TRAY_BARRIER_COVER_CODES",
+    "TRAY_GROUNDING_ACCESSORIES",
+    "PARTS_CATALOG",
+    "BREAKER_LUGS",
+    "PV_OPTIMIZERS",
+    "CONDUCTOR_PROPERTIES",
+    "LEGACY_NEC_REFERENCE",
+    "SHEET_MAP",
+    "FIELD_AUDIT",
+    "DATA_ISSUES",
+    "RESEARCH_GUIDANCE",
+    "MODEL_REQUIREMENTS",
+    "PV_UNIT_REVIEW",
+    "PLUGIN_LOG",
+    "CHANGE_LOG",
+    "AUDIT_README",
+    "OPTIMIZER_REVIEW",
+    "DATABASE_TABLE_INDEX",
+    "PAPER_AUDIT",
+    "CALCULATOR_KEY_AUDIT",
+    "CABLE_NORMALIZATION",
+    "NUMERIC_BENCHMARKS"
+  ],
+  "companions": {
+    "Underground_Cable_Thermal_Calculator_FIELD2D_FINAL.xlsx": [
+      "SESSION4_OVERVIEW",
+      "FIELD_INPUTS_S4",
+      "FIELD_MAP_S4",
+      "CONDUCTANCE_S4",
+      "FDM_MOIST_S4",
+      "FDM_DRY1_S4",
+      "FDM_DRY2_S4",
+      "ISOTHERM_S4",
+      "S4_VERIFICATION",
+      "S4_SOURCES",
+      "S4_INTEGRATION_MAP"
+    ],
+    "Underground_Cable_Thermal_Calculator_HARDENING_VALIDATION_FINAL.xlsx": [
+      "S8_OVERVIEW",
+      "FROZEN_BASELINE",
+      "TOOLS_100",
+      "RESEARCH_100",
+      "ADAPTATION_BACKLOG",
+      "INPUT_GUARD_S8",
+      "ADAPTIVE_TEMP_S8",
+      "CASE_SIGNATURE_S8",
+      "DOMAIN_MESH_QA_S8",
+      "FIELD_VALIDATION_S8",
+      "STRESS_200",
+      "FAILURE_LOG",
+      "FIX_REGISTER",
+      "S8_DASHBOARD",
+      "S9_OVERVIEW",
+      "ROBUST_ENVELOPE_S9",
+      "CONVERGENCE_LAB_S9",
+      "HARMONIC_HEAT_S9",
+      "INPUT_STYLE_S9",
+      "REGRESSION_200_S9",
+      "S9_FAILURES_FIXED",
+      "S9_RELEASE_GATE",
+      "S10_OVERVIEW",
+      "PAPERS_TOP100_S10",
+      "CROSS_METHOD_S10",
+      "VALIDATION_MATRIX_S10",
+      "BENCHMARK_IMPORT_S10",
+      "FIELD_VALIDATION_PLAN_S10",
+      "MANUFACTURER_BENCHMARK_S10",
+      "S10_QA",
+      "S10_RELEASE_GATE"
+    ],
+    "Underground_Cable_Thermal_Calculator_MAIN_FINAL.xlsx": [
+      "START",
+      "EASY_INPUT",
+      "ADVANCED",
+      "CIRCUITS",
+      "RESULTS",
+      "IEC60287_ENGINE",
+      "MUTUAL_MATRIX",
+      "TRANSIENT_60853",
+      "SENSITIVITY",
+      "SCENARIOS",
+      "DESIGN_SOLVER",
+      "AMPACITY_COMPARE",
+      "THERMAL_VISUALS",
+      "OPTIMIZER",
+      "QA_RELEASE",
+      "DATABASE_CABLES",
+      "DATABASE_MATERIALS",
+      "DATABASE_CONDUITS",
+      "FORMULAS",
+      "HANDOFF",
+      "REPORT",
+      "REFERENCES",
+      "WORKBOOK_MAP",
+      "MASTER_SPEC",
+      "DATA_DICTIONARY",
+      "ASSUMPTIONS_LOG",
+      "CUSTOM_GEOMETRY",
+      "B1_GEOMETRY",
+      "MUTUAL_RTH_B1",
+      "COUPLED_SOLVER_B1",
+      "GOLDEN_TESTS",
+      "BATCH_LOG",
+      "CHANGE_LOG",
+      "B2_LOSS_ENGINE",
+      "METALLIC_LOSS_ENGINE",
+      "DEVELOPMENT_STATUS"
+    ],
+    "Underground_Cable_Thermal_Calculator_RELEASE_CONTROL_FINAL.xlsx": [
+      "START",
+      "MODULE_MAP",
+      "QA_SUMMARY",
+      "OPEN_GATES",
+      "CHANGE_CONTROL"
+    ],
+    "Underground_Cable_Thermal_Calculator_ROUTE_OPTIMIZATION_FINAL.xlsx": [
+      "SESSION5_OVERVIEW",
+      "CABLE_BASIS_S5",
+      "CROSSING_S5",
+      "HDD_CASING_S5",
+      "ROUTE_SEGMENTS_S5",
+      "ROUTE_RESULTS_S5",
+      "S5_VERIFICATION",
+      "S5_SOURCES",
+      "S5_INTEGRATION_MAP",
+      "SESSION6_OVERVIEW",
+      "CONTROL_PANEL_S6",
+      "SENSITIVITY_S6",
+      "SCENARIOS_S6",
+      "THERMAL_OPTIMIZER_S6",
+      "DUCT_POSITION_S6",
+      "DATA_PROVENANCE_S6",
+      "S6_DASHBOARD",
+      "S6_VERIFICATION",
+      "S6_SOURCES",
+      "S6_INTEGRATION_MAP"
+    ],
+    "Underground_Cable_Thermal_Calculator_TRANSIENT_FINAL.xlsx": [
+      "SESSION1_OVERVIEW",
+      "CAPABILITY_GAP",
+      "VERIFICATION_MATRIX",
+      "SCOPE_REGRESSION",
+      "ASTRA_REFERENCE_AUDIT",
+      "SOURCES",
+      "INVARIANT_TESTS",
+      "SESSION2_OVERVIEW",
+      "PARALLEL_SHARING_S2",
+      "METALLIC_LOSS_S2",
+      "S2_VERIFICATION",
+      "S2_INTEGRATION_MAP",
+      "S2_SOURCES",
+      "SESSION3_OVERVIEW",
+      "THERMAL_RC_INPUTS",
+      "CYCLIC_S3",
+      "EMERGENCY_CURVE_S3",
+      "S3_EMERG_SCAN_BACKEND",
+      "EMERGENCY_RATING_S3",
+      "S3_VERIFICATION",
+      "S3_SOURCES",
+      "S3_INTEGRATION_MAP"
+    ]
+  }
+}

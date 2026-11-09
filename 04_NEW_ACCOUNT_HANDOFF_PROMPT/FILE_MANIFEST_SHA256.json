@@ -1,0 +1,66 @@
+{
+  "project": "Cable Thermal Studio",
+  "handoff_date": "2026-10-26",
+  "files": [
+    {
+      "path": "01_CURRENT_PUBLIC_RELEASE/Cable_Thermal_Studio_Comparison_Enhanced_Public_2026-10-26.zip",
+      "size_bytes": 6762318,
+      "sha256": "1d19e9154a18f1b721226bef1833893b6814f45d4bd71b7b5614025b63bccac9"
+    },
+    {
+      "path": "02_COMPLETE_SOURCE_AND_DATABASE_RECOVERY/Cable_Thermal_Studio_COMPLETE_RECOVERY_HANDOVER_2026-10-25.zip",
+      "size_bytes": 104658928,
+      "sha256": "f92650de824df080c1bb0cf34e1634565f297315bf4a9853ec34f9e9034ace9d"
+    },
+    {
+      "path": "03_ENGINEERING_AUDITS_AND_TESTS/Cable_Thermal_Studio_COMPLETE_CORRECTED_THREE_PASS_AUDIT_2026-10-26.md",
+      "size_bytes": 52409,
+      "sha256": "8b64264384335183cf1b2bfbc7d207db2dc0317ff90ff476e0f4afa6a19bea43"
+    },
+    {
+      "path": "03_ENGINEERING_AUDITS_AND_TESTS/Cable_Thermal_Studio_COMPLETE_USER_INPUTS_PDFS_IMAGES_QUESTIONS_STUDIES_THREE_PASS_2026-10-25.md",
+      "size_bytes": 54414,
+      "sha256": "3c10765f5b59ae6002e1a059fe4cc7e6fcb462f23cf07ccbf6f64815f145c97f"
+    },
+    {
+      "path": "03_ENGINEERING_AUDITS_AND_TESTS/Cable_Thermal_Studio_Final_Independent_Retest_2026-10-25.md",
+      "size_bytes": 2197,
+      "sha256": "d1ef94f125d2826cf53f03cd8162bf12422241737c113e8ba3cb89acad75c510"
+    },
+    {
+      "path": "03_ENGINEERING_AUDITS_AND_TESTS/Cable_Thermal_Studio_Independent_Three_Pass_Check_2026-10-25.json",
+      "size_bytes": 10933,
+      "sha256": "8547c5206176ddc8f255f90e7fe7556518baadd42257f5af65287ef790a6d1fa"
+    },
+    {
+      "path": "03_ENGINEERING_AUDITS_AND_TESTS/Cable_Thermal_Studio_THREE_PASS_MACHINE_RECONCILIATION_2026-10-26.json",
+      "size_bytes": 26477,
+      "sha256": "15946c5e60bda560f767bf31b1038237a8f7b1966cb3cca812abef1c82b0adfb"
+    },
+    {
+      "path": "03_ENGINEERING_AUDITS_AND_TESTS/Cable_Thermal_Studio_Three_Gates_QA_2026-10-26.zip",
+      "size_bytes": 346196,
+      "sha256": "c7799b2ef2434227264c639a2a893fa3caf898d29e3f61a8cc384964a8da50fe"
+    },
+    {
+      "path": "03_ENGINEERING_AUDITS_AND_TESTS/Three_Gates_Verification_2026-10-26.md",
+      "size_bytes": 5918,
+      "sha256": "c07ae15d6746ec18ba7745a2cd5c0f66dba5cc355d3f44cf5dc6278ceaec09ad"
+    },
+    {
+      "path": "04_NEW_ACCOUNT_HANDOFF_PROMPT/COPY_PASTE_MASTER_PROMPT.txt",
+      "size_bytes": 10232,
+      "sha256": "d44ba981d0475cc75c72e37c22814067d61c5f0925099f7b25d03fa3d2e0e263"
+    },
+    {
+      "path": "04_NEW_ACCOUNT_HANDOFF_PROMPT/Thermal_Calculator_New_Account_Master_Prompt.docx",
+      "size_bytes": 42491,
+      "sha256": "a0c2e4090e756585376381aeabbe8e0090edbbee5cbe4b0735bd3270a8653fe2"
+    },
+    {
+      "path": "README_FIRST.md",
+      "size_bytes": 3611,
+      "sha256": "a6dfa5fc8fdfaa739cea939551b901a12a9f193515fc998fd7c90795b8ea082c"
+    }
+  ]
+}
